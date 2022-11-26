@@ -8,7 +8,7 @@ import java.sql.ResultSet;
 public class Conection {
     public static final String DRIVER = "org.h2.Driver";
     public static final String URL = "jdbc:h2:file:.\\DB";
-    public static final String USER = "sa";//alterar
+    public static final String USER = "";//alterar
     public static final String PASS = "";//alterar
     
     public static Connection getConnection() {
